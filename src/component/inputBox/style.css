@@ -1,0 +1,55 @@
+.InputBox-container {
+  padding: 20px 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222831;
+  .amount {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: fit-content;
+
+    input {
+      /* border: none; */
+      border-radius: 10px;
+      padding: 5px 10px;
+      height: 40px;
+      outline: none;
+      border-color: #222831;
+      font-size: 18px;
+      background-color: #eeeeee;
+      color: #222831;
+    }
+    input::placeholder {
+      opacity: 0.5;
+      letter-spacing: 1px;
+      color: #222831;
+    }
+  }
+  .select-currency {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+    align-items: end;
+    max-width: fit-content;
+    .select {
+      width: 72px;
+      padding: 3px;
+      font-size: 17px;
+      outline: none;
+      background-color: #eeeeee;
+      color: #222831;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
+.label {
+  font-size: 17px;
+  font-weight: 500;
+}

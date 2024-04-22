@@ -1,0 +1,32 @@
+.currency-conver-container {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0);
+  /* opacity: 0.5; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid #eeeeee;
+  padding: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+button {
+  width: 80px;
+  height: 40px;
+  /* background-color: #222831; */
+  position: absolute;
+  font-weight: bold;
+  color: #222831;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  border: 2px solid #222831;
+}
